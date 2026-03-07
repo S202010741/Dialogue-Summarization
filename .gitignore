@@ -252,3 +252,6 @@ config.yaml
 
 # W&B 로그
 wandb/
+
+# outputs/ 용량이 커서 제외
+outputs/
