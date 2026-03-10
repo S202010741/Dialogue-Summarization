@@ -255,3 +255,6 @@ wandb/
 
 # outputs/ 용량이 커서 제외
 outputs/
+
+# unsloth 캐시
+unsloth_compiled_cache/
