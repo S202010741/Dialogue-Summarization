@@ -258,3 +258,102 @@ outputs/
 
 # unsloth 캐시
 unsloth_compiled_cache/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info
+.eggs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv
+venv/
+env/
+ENV/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Training outputs
+# =========================
+outputs/
+prediction/
+predictions/
+results/
+
+# =========================
+# Model checkpoints
+# =========================
+checkpoint-*/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# =========================
+# HuggingFace cache
+# =========================
+.cache/
+huggingface/
+hf_cache/
+~/.cache/huggingface/
+
+# =========================
+# datasets
+# =========================
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# =========================
+# wandb
+# =========================
+wandb/
+
+# =========================
+# Unsloth
+# =========================
+unsloth_compiled_cache/
+
+# =========================
+# Tensorboard
+# =========================
+runs/
+events.out.tfevents*
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Linux
+# =========================
+*~
+
+# =========================
+# temp
+# =========================
+tmp/
+temp/
+
